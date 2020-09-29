@@ -13,6 +13,23 @@ const password3 = 'like a BOSS';
 
 // **YOUR** code below. Pass those tests!
 
+function isValidEmail(userLogin){
+  if (userLogin.indexOf('@codeimmersives.com') >= 1){
+
+  }
+    return true
+}
+  else{
+    return false;
+  }
+
+// 
+
+
+
+
+  
+  
 
 
 
