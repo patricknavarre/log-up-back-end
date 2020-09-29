@@ -51,9 +51,17 @@ function passwordMatches(name, password){
   else {
     return false
   }
+}
+  function isValidPassword(password){
+    if (password.length >= 8 && password.toLowerCase() !== password && password.toUpperCase() !== password){
+      return true
+    }
+  else {
+    return false
+  }
   
-  
-  
+
+ 
 }
 
 
